@@ -18,7 +18,7 @@ rl.question('What\'s your name? Nicknames are also acceptable :)', (answer) => {
             answers.push(answer);
             rl.question('What is your superpower? In a few words, tell us what you are amazing at!', (answer) => {
               answers.push(answer);
-              console.log(answers);
+    
               console.log(
                 `Hi my name is ${answers[0]}. I really enjoy ${answers[1]} and listening to ${answers[2]}. My favourite meal is ${answers[3]}, whiere I enjoy eating ${answers[4]}. ${answers[5]} is my favourite sport. I am amazing a ${answers[6]}!`
               )
